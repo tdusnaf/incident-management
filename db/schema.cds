@@ -2,7 +2,7 @@ using { cuid, managed, sap.common.CodeList } from '@sap/cds/common';
 namespace sap.capire.incidents; 
 
 /**
-* Incidents created by Customers.
+* Incidents created by Customers. ADD COMENT
 */
 entity Incidents : cuid, managed {  
 customer     : Association to Customers;
